@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "date": "2023-07-18",
+      "title": "First Entry",
+      "experience": "Today, I started my diary. It's a beautiful day with clear skies. I had a great time with my friends at the park. Looking forward to writing more entries."
+    },
+    {
+      "id": 2,
+      "date": "2023-07-19",
+      "title": "A Day of Adventure",
+      "experience": "Today, I went on an exciting adventure. I hiked up a mountain and enjoyed breathtaking views. It was challenging but totally worth it."
+    },
+    {
+      "id": 3,
+      "date": "2023-07-20",
+      "title": "Reflections",
+      "experience": "Today, I took some time to reflect on my life. I feel grateful for the little things and want to cherish every moment."
+    },
+    {
+      "title": "njoka",
+      "date": "2023-08-02",
+      "experience": "           bad",
+      "id": 4
+    },
+    {
+      "title": "chinua achebe",
+      "date": "2023-08-10",
+      "experience": "           love",
+      "id": 5
+    },
+    {
+      "title": "danwycliff",
+      "date": "2023-08-02",
+      "content": "           njoka",
+      "id": 6
+    }
+  ]
+}
