@@ -27,3 +27,5 @@ let addDiaryentry = (event) =>{
 
 }
 postform.addEventListener('submit',addDiaryentry)
+
+

@@ -2,12 +2,12 @@ const books = document.getElementById("books");
 
 
 
-//fetch movies to display in the movie sites
+//fetch books to display in the library site
     fetch("http://localhost:3000/books")
     .then(res => res.json())
     .then(data => displayBooks(data))
 
-    //A fetch function will display images
+    //A fetch function will display the relevant data
 function displayBooks (data) {
     data.map(i => {
         let myBooks = document.createElement('div')
@@ -25,3 +25,38 @@ function displayBooks (data) {
 })
 
 }
+// post books to the site
+let addBook = (event) => {
+    event.preventDefault()
+
+    let author = document.getElementById('author').value
+    let image = document.getElementById('image').value
+    let link = document.getElementById('link').value
+    let title = document.getElementById('title').value
+    let country = document.getElementById('country').value
+    let language = document.getElementById('language').value
+    let pages = document.getElementById('pages').value
+    let year = document.getElementById('year').value
+
+const entryData = {
+    author:author,
+    image:image,
+    link:link,
+    title:title,
+    country:country,
+    language:language,
+    pages:pages,
+    year:year,
+}
+fetch("http://localhost:3000/books",{
+    method: 'POST',
+    headers:{
+        'Contente-Type': 'application/json',
+        Accept: 'application/json',
+    },
+    body:JSON.stringify(entryData)
+})
+.then(res => res.json())
+.then(data => console.log(data))
+}
+add.addEventListener('submit',addBook)
