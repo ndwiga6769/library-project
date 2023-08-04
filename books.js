@@ -3,7 +3,7 @@ const books = document.getElementById("books");
 
 
 //fetch books to display in the library site
-    fetch("http://localhost:3000/books")
+    fetch("https://vercel-db-json.vercel.app/books")
     .then(res => res.json())
     .then(data => displayBooks(data))
 
@@ -48,7 +48,7 @@ const entryData = {
     pages:pages,
     year:year,
 }
-fetch("http://localhost:3000/books",{
+fetch("https://vercel-db-json.vercel.app/books",{
     method: 'POST',
     headers:{
         'Content-Type': 'application/json',

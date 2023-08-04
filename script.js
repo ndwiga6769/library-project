@@ -1,5 +1,5 @@
 
-let dataUrl = 'http://localhost:3000/records'
+let dataUrl = 'https://vercel-db-json.vercel.app/records'
 
 let addExperience = (event) =>{
     event.preventDefault()
