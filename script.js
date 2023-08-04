@@ -1,7 +1,7 @@
 
-let dataUrl = 'http://localhost:3000/records'
+let dataUrl = 'http://localhost:3030/records'
 
-let addDiaryentry = (event) =>{
+let addExperience = (event) =>{
     event.preventDefault()
     let title = document.getElementById('title').value
     let date = document.getElementById('date').value
@@ -26,6 +26,6 @@ let addDiaryentry = (event) =>{
 .then(data => console.log(data))
 
 }
-postform.addEventListener('submit',addDiaryentry)
+postform.addEventListener('submit',addExperience)
 
 

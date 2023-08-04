@@ -30,7 +30,7 @@ let addBook = (event) => {
     event.preventDefault()
 
     let author = document.getElementById('author').value
-    let image = document.getElementById('image').value
+    let imageLink = document.getElementById('imageLink').value
     let link = document.getElementById('link').value
     let title = document.getElementById('title').value
     let country = document.getElementById('country').value
@@ -40,7 +40,7 @@ let addBook = (event) => {
 
 const entryData = {
     author:author,
-    image:image,
+    imageLink:imageLink,
     link:link,
     title:title,
     country:country,
@@ -51,7 +51,7 @@ const entryData = {
 fetch("http://localhost:3000/books",{
     method: 'POST',
     headers:{
-        'Contente-Type': 'application/json',
+        'Content-Type': 'application/json',
         Accept: 'application/json',
     },
     body:JSON.stringify(entryData)
@@ -59,4 +59,5 @@ fetch("http://localhost:3000/books",{
 .then(res => res.json())
 .then(data => console.log(data))
 }
+let add = document.getElementById('add')
 add.addEventListener('submit',addBook)

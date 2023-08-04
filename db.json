@@ -1,24 +1,5 @@
 {
-  "records": [
-    {
-      "title": "danwycliff",
-      "date": "2023-08-02",
-      "content": "           njoka",
-      "id": 6
-    },
-    {
-      "title": "Alvin Ombito",
-      "date": "2023-08-02",
-      "content": "Recomendable to others",
-      "id": 7
-    },
-    {
-      "title": "Ken",
-      "date": "2023-08-01",
-      "content": " encouraged me",
-      "id": 8
-    }
-  ],
+  
   "books": [
     {
       "author": "Chinua Achebe",
