@@ -1,5 +1,5 @@
 
-let dataUrl = 'http://localhost:3030/records'
+let dataUrl = 'http://localhost:3000/records'
 
 let addExperience = (event) =>{
     event.preventDefault()
