@@ -1,9 +1,10 @@
+
 const books = document.getElementById("books");
 
 
 
 //fetch books to display in the library site
-    fetch("https://vercel-db-json.vercel.app/books")
+    fetch("http://localhost:3000/books")
     .then(res => res.json())
     .then(data => displayBooks(data))
 
@@ -28,7 +29,7 @@ function displayBooks (data) {
 // post books to the site
 let addBook = (event) => {
     event.preventDefault()
-
+    let id = document.getElementById('idNumber').value
     let author = document.getElementById('author').value
     let imageLink = document.getElementById('imageLink').value
     let link = document.getElementById('link').value
@@ -39,20 +40,22 @@ let addBook = (event) => {
     let year = document.getElementById('year').value
 
 const entryData = {
+    id:id,
     author:author,
-    imageLink:imageLink,
-    link:link,
-    title:title,
     country:country,
+    imageLink:imageLink,
     language:language,
+    link:link,
     pages:pages,
+    title:title,
     year:year,
 }
-fetch("https://vercel-db-json.vercel.app/books",{
+console.log(entryData)
+fetch("http://localhost:3000/books",{
     method: 'POST',
     headers:{
         'Content-Type': 'application/json',
-        Accept: 'application/json',
+        //Accept: 'application/json',
     },
     body:JSON.stringify(entryData)
 })

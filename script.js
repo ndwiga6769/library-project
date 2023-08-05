@@ -1,5 +1,7 @@
+//http://localhost:3000
+//https://vercel-db-json.vercel.app
 
-let dataUrl = 'https://vercel-db-json.vercel.app/records'
+let dataUrl = 'http://localhost:3000/records'
 
 let addExperience = (event) =>{
     event.preventDefault()
@@ -11,7 +13,7 @@ let addExperience = (event) =>{
     const entryObj = {
         title:title,
         date:date,
-        content:experience,
+        experience:experience,
     }
     // two parameters
     fetch(dataUrl,{

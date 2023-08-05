@@ -71,6 +71,12 @@
       "date": "2023-08-04",
       "content": " Tough times          ",
       "id": 17
+    },
+    {
+      "title": "njoki",
+      "date": "2023-08-01",
+      "experience": "           njoki",
+      "id": 18
     }
   ],
   "books": [
@@ -1063,6 +1069,17 @@
       "pages": 209,
       "title": "To the Lighthouse",
       "year": 1927
+    },
+    {
+      "id": "1",
+      "author": "danwycliff",
+      "country": "kenya",
+      "imageLink": "https://www.shutterstock.com/shutterstock/photos/795305758/display_1500/stock-vector-open-book-vector-clipart-silhouette-symbol-icon-design-illustration-isolated-on-white-background-795305758.jpg",
+      "language": "engolish",
+      "link": "ftgyjhkljhgfd",
+      "pages": "400",
+      "title": "null",
+      "year": "2004"
     }
   ]
 }
