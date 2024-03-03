@@ -99,17 +99,3 @@ contributions to the webite for a better looking application
 #### LICENSE
 This project is licensed under the [MIT License](LICENSE.txt). 
 Please see the [LICENSE.txt](LICENSE.txt) file for more details.
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor neque vitae justo rutrum, id volutpat lorem tempor. Fusce eget nisl et ex cursus consequat. Phasellus condimentum, velit eu tristique consequat, metus sapien congue ex, a lacinia elit nulla non sapien. Nullam id risus in ex consectetur tempor nec eu risus. Suspendisse feugiat lacus nec tincidunt ultricies. Integer quis dolor nec odio condimentum faucibus. Duis ultricies quam eget quam laoreet, ac convallis lacus viverra. Sed sit amet lectus eget lacus egestas dignissim. Vivamus in purus nec eros suscipit hendrerit a id turpis. Integer fermentum dui at risus lacinia, in mattis magna ullamcorper. Maecenas congue odio sed mauris finibus, at tincidunt ligula consequat. Vivamus et urna nec magna vestibulum bibendum. Maecenas dictum euismod tellus, in pharetra velit vestibulum non. Sed malesuada nec nunc eget lacinia.
-
-Etiam dapibus velit sed erat consectetur varius. Donec scelerisque, lacus vel posuere fermentum, metus sapien commodo ipsum, sit amet ultricies quam felis ac nunc. Quisque malesuada accumsan tellus, eget suscipit est. Vivamus vestibulum vestibulum odio, ac efficitur sapien vestibulum non. Duis lobortis, ipsum id eleifend cursus, nisi nisi tempus purus, nec consectetur ligula tortor eu ex. Duis tempor tellus a ex vulputate, vel auctor elit vestibulum. Sed eleifend, turpis ac hendrerit vulputate, metus quam fermentum arcu, a lobortis nulla purus sit amet nisi. Suspendisse potenti. Suspendisse potenti. Nunc nec augue aliquet, tempor sapien nec, hendrerit velit. Suspendisse et ipsum orci. Ut scelerisque mauris eget metus cursus, a volutpat sem pharetra. Etiam luctus ex nec tortor ultricies, et convallis risus luctus. Sed rutrum magna non ante dictum, vel volutpat nunc lacinia. Sed tristique sapien vel nunc pharetra, vel euismod tellus suscipit.
-
-In consequat, nisl ut sollicitudin tempor, arcu eros vehicula purus, at elementum magna nunc nec mi. Cras tincidunt, nunc a pharetra fermentum, nisi mauris aliquet nunc, sit amet vehicula magna turpis id nisi. Integer vel enim commodo, consectetur risus nec, consectetur purus. Sed auctor pharetra purus, vel convallis libero placerat et. Praesent ut libero sed sem fermentum cursus. Aenean faucibus turpis in dui elementum, vitae tristique mi dignissim. Integer eget metus auctor, dapibus mi ut, accumsan mauris. Morbi at mauris et velit tincidunt hendrerit eu nec risus. Sed ut aliquet odio. Vivamus quis lacinia purus. Nam eleifend lobortis elit. Vivamus vel consectetur est. Phasellus ultricies ante in dui efficitur, vitae lacinia ipsum viverra. Sed dapibus ligula vel leo aliquet bibendum. Curabitur et vehicula sapien.
-
-
-
-
-
-
